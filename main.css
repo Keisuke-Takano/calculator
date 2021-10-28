@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+body h1{
+    text-align: center;
+}
+
+.calculator{
+    width: 320px;
+    height: 570px;
+    background-color: black;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+#result{
+    height: 120px;
+    border-bottom: 1px solid white;
+    background-color: rgb(59, 58, 56);
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:white;
+}
+
+#output{
+    text-align: right;
+    height:60px ;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.key{
+    margin-top: 20px;
+}
+
+.operator,.number,.empty{
+    width: 60px;
+    height: 70px;
+    margin: 0 auto;
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.number,.operator{
+cursor: pointer;
+}
+
+.clear{
+    background-color:yellow;
+}
